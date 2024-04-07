@@ -1,0 +1,30 @@
+/* Employees.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    color: rgb(249, 0, 0);
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employeeTable th,
+.employeeTable td {
+    border: 1px solid rgb(1, 1, 1);
+    padding: 10px;
+    text-align: left;
+}
+
+.employeeTable th {
+    background-color: #00ff33;
+}
+

@@ -1,0 +1,42 @@
+/* EmployeeList.module.css */
+
+.employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employeeTable th,
+.employeeTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.employeeTable th {
+    background-color: #f0f0f0;
+}
+
+.employeeTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.employeeTable tr:hover {
+    background-color: #e2e2e2;
+}
+
+.editButton,
+.deleteButton {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+    background-color: #0056b3;
+}
